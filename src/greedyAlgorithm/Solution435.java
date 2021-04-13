@@ -10,6 +10,7 @@ public class Solution435 {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length <= 1) return 0;
 
+        //sort intervals with it's start
         Arrays.sort(intervals, (o1, o2) -> {
             if (o1[0] == o2[0]) {
                 if (o1[1] < o2[1]) {
