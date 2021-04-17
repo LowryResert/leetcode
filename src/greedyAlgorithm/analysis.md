@@ -14,3 +14,5 @@
 `#605`Can Place Flowers
 
 `#452`Minimum Number of Arrows to Burst Balloons
+
+`#763`Partition Labels
